@@ -52,6 +52,6 @@ Hint: urls starting with https://sho.rt/ can not be shortened:
   - unknown long urls should throw a RuntimeException
 - The method `String shorten(String url)` should only accept urls starting with `https://`. If other urls are given, it should throw a RuntimeException 
 - Create a statistics method String `String statisctics(String shortOrLongUrl)` which returns a string like: 
-`Short URL: https://sho.rt/1234, long URL: https://www.google.de, visits: 12`:
+`Short URL: https://sho.rt/123, long URL: https://www.google.de, visits: 12`:
   - short/long url can be given
   - given an unknown url it throws an RuntimeException
